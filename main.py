@@ -2,7 +2,7 @@ import streamlit as st
 import pickle as pkl
 import numpy as np
 
-class_list = {'1': 'Male', '0': 'Female'}
+class_list = {'1': 'Pass', '0': 'Out'}
 
 st.title('Admit Student')
 input = open('lr_admit.pkl', 'rb')
