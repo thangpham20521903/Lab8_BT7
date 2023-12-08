@@ -4,11 +4,8 @@ import numpy as np
 
 class_list = {'1': 'Male', '0': 'Female'}
 
-st.title('Name Prediction')
-input = open('ec_vinames.pkl', 'rb')
-encoder = pkl.load(input)
-
-input = open('lrc_vinames.pkl', 'rb')
+st.title('Admit Student')
+input = open('lr_admit.pkl', 'rb')
 model = pkl.load(input)
 
 st.header('Write Name')
